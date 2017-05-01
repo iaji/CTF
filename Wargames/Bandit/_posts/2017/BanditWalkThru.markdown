@@ -124,5 +124,19 @@ ssh bandit6@bandit.labs.overthewire.org
 
 pass: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
+find / -size 33c -user bandit7 -group bandit6 2>/dev/null
 
+/var/lib/dpkg/info/bandit7.password
+
+cat /var/lib/dpkg/info/bandit7.password
+
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+```
+
+## Level 7
+
+```
+ssh bandit7@bandit.labs.overthewire.org
+
+pass: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ```
