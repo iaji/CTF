@@ -139,4 +139,16 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ssh bandit7@bandit.labs.overthewire.org
 
 pass: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+bandit7@melinda:~$ cat data.txt | grep "millionth"
+millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+logout
+```
+## Level 8
+
+```
+ssh bandit7@bandit.labs.overthewire.org
+
+pass:
 ```
