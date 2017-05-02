@@ -138,7 +138,7 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
 ssh bandit7@bandit.labs.overthewire.org
 
-pass: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+pass: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 bandit7@melinda:~$ cat data.txt | grep "millionth"
 millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
@@ -148,7 +148,13 @@ logout
 ## Level 8
 
 ```
-ssh bandit7@bandit.labs.overthewire.org
+ssh bandit8@bandit.labs.overthewire.org
 
-pass:
+pass: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+cat data.txt | sort | uniq -u
+
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+logout
 ```
