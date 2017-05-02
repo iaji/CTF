@@ -207,5 +207,70 @@ logout
 ## Level 12
 
 ```
+mkdir /tmp/jack19
 
+cp data.txt step1.txt
+
+mv step1.txt /tmp/jack19
+
+cd /tmp/jack19
+
+xxd -r step1.txt step1.bin
+
+file step1.bin
+step1.bin: gzip compressed data, was "data2.bin", from Unix, last modified: Fri Nov 14 10:32:20 2014, max compression
+
+mv step1.bin step1.gz
+
+gzip -d step1.gz
+
+file step1
+
+mv step1 step2.bz2
+
+bzip2 -d step2.bz2
+
+file step2
+
+mv step2 step3.gz
+
+gzip -d step3.gz
+
+file step3
+
+mv step3 step4.tar
+
+tar -xf step4.tar
+
+file data5.bin
+
+mv data5.bin step5.tar
+
+tar -xf step5.tar
+
+file data6.bin
+
+mv data6.bin step7.bz2
+
+bzip2 -d step7.bz2
+
+file step7
+
+mv step7 step8.tar
+
+tar -xf step8.tar
+
+file data8.bin
+
+mv data8.bin step9.gz
+
+gzip -d step9.gz
+
+file step9
+
+cat step9
+
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+logout
 ```
