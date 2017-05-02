@@ -183,5 +183,29 @@ ssh bandit10@bandit.labs.overthewire.org
 
 pass: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 
+base64 -d data.txt
+
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+logout
+```
+
+## Level 11
+
+```
+ssh bandit11@bandit.labs.overthewire.org
+
+pass: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+cat data.txt | tr [A-Za-z] [N-ZA-Mn-za-m]
+
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+logout
+```
+
+## Level 12
+
+```
 
 ```
