@@ -158,3 +158,30 @@ UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 logout
 ```
+
+## Level 9
+
+```
+ssh bandit9@bandit.labs.overthewire.org
+
+pass: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+cat data.txt | strings | grep ".*==="
+
+I========== the6
+========== password
+========== ism
+========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+logout
+```
+
+## Level 10
+
+```
+ssh bandit10@bandit.labs.overthewire.org
+
+pass: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+
+```
