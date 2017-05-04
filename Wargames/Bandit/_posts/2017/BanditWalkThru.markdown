@@ -207,6 +207,8 @@ logout
 ## Level 12
 
 ```
+bandit12@bandit.labs.overthewire.org
+
 mkdir /tmp/jack19
 
 cp data.txt step1.txt
@@ -273,4 +275,12 @@ cat step9
 The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 logout
+```
+
+## Level 13
+
+```
+ssh bandit13@bandit.labs.overthewire.org
+
+pass: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 ```
