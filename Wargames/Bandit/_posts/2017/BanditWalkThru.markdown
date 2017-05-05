@@ -288,6 +288,29 @@ pass: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 ls
 
-ssh -i bandit14 bandit14@localhost
+ssh -i sshkey.private bandit14@localhost
+
+```
+
+## Level 14
+
+```
+cd /etc/bandit_pass/
+
+pass: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+nc -v localhost 30000
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+Correct!
+
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+```
+
+## Level 15
+
+```
+ssh bandit15@bandit.labs.overthewire.org
+
+pass: BfMYroe26WYalil77FoDi9qh59eK5xNr
 
 ```
