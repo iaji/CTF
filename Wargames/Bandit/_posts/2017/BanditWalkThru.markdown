@@ -1,6 +1,6 @@
 # **Bandit**
 
-## **Level 0**
+## Level 0
 ```
 ssh bandit0@bandit.labs.overthewire.org
 
@@ -14,7 +14,7 @@ boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 logout
 ```
-## **Level 1**
+## Level 1
 
 ```
 ssh bandit1@bandit.labs.overthewire.org
@@ -207,7 +207,9 @@ logout
 ## Level 12
 
 ```
-bandit12@bandit.labs.overthewire.org
+ssh bandit12@bandit.labs.overthewire.org
+
+pass: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 mkdir /tmp/jack19
 
@@ -283,4 +285,9 @@ logout
 ssh bandit13@bandit.labs.overthewire.org
 
 pass: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+ls
+
+ssh -i bandit14 bandit14@localhost
+
 ```
