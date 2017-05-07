@@ -320,3 +320,11 @@ Correct!
 
 cluFn7wTiGryunymYOu4RcffSxQluehd
 ```
+
+## Level 16
+
+```
+ssh bandit16@bandit.labs.overthewire.org
+
+pass: cluFn7wTiGryunymYOu4RcffSxQluehd
+```
